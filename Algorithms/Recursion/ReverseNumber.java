@@ -9,7 +9,7 @@ public class ReverseNumber {
     }
 
     public static void main(String[] args) {
-        int n = 12345;
+        int n = 1234;
 
         System.out.println("Reversed: " + reverse(n, 0));
     }
