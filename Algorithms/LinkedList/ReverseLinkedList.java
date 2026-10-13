@@ -1,6 +1,3 @@
-package Algorithms.LinkedList;
-
-
 public class ReverseLinkedList {
 
     static class Node {
