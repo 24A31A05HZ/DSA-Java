@@ -17,7 +17,6 @@ public class PriorityQueueDemo {
         while (!pq.isEmpty()) {
             System.out.print(pq.poll() + " ");
         }
-
         System.out.println();
     }
 }
