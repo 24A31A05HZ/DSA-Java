@@ -1,6 +1,4 @@
 package DataStructures.Queue;
-
-
 import java.util.PriorityQueue;
 
 public class PriorityQueueDemo {
