@@ -1,6 +1,4 @@
 package Algorithms.Stack;
-
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 
