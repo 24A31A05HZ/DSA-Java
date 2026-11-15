@@ -9,7 +9,7 @@ public class ChooseExploreUnchoose {
             int index,
             List<Integer> current) {
 
-        // Base case: all elements processed
+        // Base case
         if (index == arr.length) {
             System.out.println(new ArrayList<>(current));
             return;
