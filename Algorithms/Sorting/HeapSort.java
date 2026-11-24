@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class HeapSort {
 
     static void heapSort(int[] arr) {
-
         int n = arr.length;
 
         // Build max heap
@@ -14,7 +13,6 @@ public class HeapSort {
 
         // Extract elements one by one
         for (int i = n - 1; i > 0; i--) {
-
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
@@ -26,7 +24,6 @@ public class HeapSort {
     static void heapify(int[] arr, int n, int i) {
 
         int largest = i;
-
         int left = 2 * i + 1;
         int right = 2 * i + 2;
 
